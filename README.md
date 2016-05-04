@@ -8,6 +8,3 @@ OSX
     - rvm use 2.2 --default    
   -  sudo gem install Jekyll
   -  jekyll serve
-  
-  THEME:
-  [Jekyll Material Design Lite](https://github.com/gdg-managua/jekyll-mdl)
