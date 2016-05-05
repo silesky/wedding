@@ -7,6 +7,18 @@
 
 @charset "utf-8";
 
+/*********** overrides ***********/
+// Pantone Metallic 8363 Gold
+$gold-color: #a19b4b;
+$gold-color-dark: darken($gold-color, 25%);
+$gold-color-light:  lighten($gold-color, 25%);
+// Pantone Coated 575 C (Green)
+$sagegreen-color: #67823a;
+$sagegreen-color-dark: darken($sagegreen-color, 25%);
+$sagegreen-color-light:  lighten($sagegreen-color, 25%);
+
+//
+/******************************/
 $spacing-unit:     30px;
 $super-search:     rgba(0, 191, 255, 0.85);
 $grey-color:       #828282;

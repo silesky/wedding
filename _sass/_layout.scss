@@ -1,9 +1,36 @@
-//
 // Generals styles for material design light elements
-//
 
-// Page container
+/********* overrides *********/
+/*
+        Dark Sage green: #69793e
+          http://rgb.to/color/6881/dark-sage-green
+        Light Sage green: #a4be4d
+          http://rgb.to/keyword/10507/1/light-sage-green
+        Pantone Metallic 8363 Gold: #a19b4b
+          http://rgb.to/pantone/metallic/8363-c
+        Ivory: #FFFFF0
+*/
+//header
+.mdl-layout__header {
+	background-color:  $gold-color;
+}
 
+
+
+// READ MORE links
+.mdl-button.mdl-button--colored {
+	color: $gold-color;
+
+}
+
+// footer
+.mdl-mega-footer {
+  background-color: $sagegreen-color-dark;
+}
+.mdl-mega-footer--link-list {
+
+}
+/***************************/
 .page-content{
   max-width: 1200px;
   margin: 0 auto;

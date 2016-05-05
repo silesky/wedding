@@ -8,6 +8,7 @@ OSX
     - rvm use 2.2 --default    
   -  sudo gem install Jekyll
   -  jekyll serve
+- access @ http://127.0.0.1:4000/wedding/
   
   THEME:
   [Jekyll Material Design Lite](https://github.com/gdg-managua/jekyll-mdl)
