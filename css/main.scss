@@ -8,6 +8,12 @@
 @charset "utf-8";
 
 /*********** overrides ***********/
+// accomodations, itinerary, location, photos
+.mdl-card__title-text, .mdl-card__title a {
+  text-decoration: none;
+  color: white;
+}
+
 // Pantone Metallic 8363 Gold
 $gold-color: #a19b4b;
 $gold-color-dark: darken($gold-color, 25%);
