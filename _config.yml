@@ -21,17 +21,17 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option1:
 
-    name: Cool Option 1
+    name: RSVP Now!
     link: www.myawesomelink.com
-  option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+  # option2:
+    # name: Facebook
+    # link: www.myawesomelink.com
+  # option3:
+    # name: Cool Option 3
+    # link: www.myawesomelink.com
 
-disqus: true
-disqus_shortname: 'gdgmanagua'
+# disqus: true
+# disqus_shortname: 'gdgmanagua'
 
 # Build settings
 markdown: kramdown
