@@ -12,3 +12,18 @@ OSX
 
   THEME:
   [Jekyll Material Design Lite](https://github.com/gdg-managua/jekyll-mdl)
+
+  DEMO:
+  http://prosa.in/
+
+# done, on hold
+[x] add social media
+# high
+twitter, fb icons
+# med
+
+disable comments
+disable search bar
+# low
+cool option #1, #2, etc
+bg images
