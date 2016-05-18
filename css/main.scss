@@ -4,10 +4,17 @@
 //
 // Main sass file, to import all styles
 //
-
 @charset "utf-8";
 
 /*********** overrides ***********/
+// center all cards
+.social-media i {
+  padding-left: 10px;
+}
+.mdl-grid {
+    align-items: center;
+    justify-content: center;
+  }
 // accomodations, itinerary, location, photos
 .mdl-card__title-text, .mdl-card__title a {
   text-decoration: none;
