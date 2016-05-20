@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Accomodations
-permalink: /accomodations/
+title: Accommodations
+permalink: /accommodations/
 order: 2
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
