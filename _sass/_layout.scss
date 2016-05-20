@@ -12,20 +12,25 @@
 */
 //header
 .mdl-layout__header {
-	background-color:  $gold-color;
+
+background: rgba(0,96,20,1);
+background: -moz-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,96,20,1)), color-stop(66%, rgba(0,96,20,1)), color-stop(100%, rgba(161,155,75,1)));
+background: -webkit-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
+background: -o-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
+background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
 }
-
-
 
 // READ MORE links
 .mdl-button.mdl-button--colored {
-	color: $gold-color;
+	color:  $gold-color;
 
 }
 
 // footer
 .mdl-mega-footer {
-  background-color: $sagegreen-color-dark;
+  background-color: $evergreen-color;
 }
 .mdl-mega-footer--link-list {
 
@@ -62,6 +67,7 @@
 .section-highlight {
   position: relative;
   margin: 10px;
+border: 3px solid $gold-color-light;
 
   .mdl-card__supporting-text {
     margin: 40px;
