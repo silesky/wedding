@@ -8,6 +8,7 @@
 
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
+
 .mdl-layout__header-row > a {
   color: white;
   text-decoration: none;
@@ -19,9 +20,8 @@
 
 // center all cards
 .mdl-grid {
-    align-items: center;
-    justify-content: center;
-  }
+  align-items: center;
+}
 // accomodations, itinerary, location, photos
 .mdl-card__title-text, .mdl-card__title a {
   text-decoration: none;
@@ -55,9 +55,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "post",
-        "search"
+"base",
+"layout",
+"syntax-highlighting",
+"post",
+"search"
 ;
