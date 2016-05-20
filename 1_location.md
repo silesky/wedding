@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Itinerary
-permalink: /itinerary/
+title: Location
+permalink: /location/
+order: 1
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
 

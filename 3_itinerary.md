@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Accomodations
-permalink: /accomodations/
+title: Itinerary
+permalink: /itinerary/
+order: 3
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
 

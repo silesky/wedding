@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Registry
+permalink: /registry/
+order: 4
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
 
