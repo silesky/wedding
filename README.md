@@ -21,9 +21,9 @@ OSX
 # high
 twitter, fb icons
 # med
-
-disable comments
-disable search bar
+disable card menu home page
+[x] disable comments
+[x] disable search bar
 # low
-cool option #1, #2, etc
+[x] cool option #1, #2, etc
 bg images

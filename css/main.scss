@@ -7,10 +7,17 @@
 @charset "utf-8";
 
 /*********** overrides ***********/
-// center all cards
+// Melissa <3 Seth (title)
+.mdl-layout__header-row > a {
+  color: white;
+  text-decoration: none;
+}
+// twitter, fb, instagram
 .social-media i {
   padding-left: 10px;
 }
+
+// center all cards
 .mdl-grid {
     align-items: center;
     justify-content: center;
