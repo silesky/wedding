@@ -71,12 +71,13 @@ div.mdl-card__supporting-text h4 {
   bottom: 25px;
 }
 
-// Index highlight card
+// some folks are getting married
 
 .section-highlight {
   position: relative;
   margin: 10px;
-border: 3px solid $gold-color-light;
+	width: 100%;
+  border: 3px solid $gold-color-light;
 
   .mdl-card__supporting-text {
     margin: 40px;
