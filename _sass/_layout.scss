@@ -28,6 +28,15 @@ background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, r
 
 }
 
+// accomdations, location, photos etc
+.mdl-card__title-text, .mdl-card__title a {
+	color: white;
+}
+//Some folks are getting married!
+div.mdl-card__supporting-text h4 {
+	color: $gold-color;
+	font-weight: bold;
+}
 // footer
 .mdl-mega-footer {
   background-color: $evergreen-color;
