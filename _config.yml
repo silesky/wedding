@@ -18,7 +18,7 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option1:
 
-    name: RSVP Now!
+    name: View our registry!
     link: www.myawesomelink.com
   # option2:
     # name: Facebook
