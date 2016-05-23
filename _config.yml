@@ -3,7 +3,7 @@ title: Melissa ♡ Seth
 email: seth.silesky@gmail.com
 description: 'The official wedding site for Melissa H. Dunn and Seth B. Silesky'
 baseurl: "/wedding"
-url: "http://melissaandseth.com" # the base hostname & protocol for your site
+# url: "http://melissaandseth.com" # the base hostname & protocol for your site
 twitter_username: '@myfriendseth'
 # github_username:  jekyll
 # google_plus_com: '109485346959707049693'  # Community link
@@ -15,11 +15,12 @@ header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
+# set in header.html
 more_vert:
   option1:
-
     name: View our registry!
-    link: www.myawesomelink.com
+    link:  /registry/
+
   # option2:
     # name: Facebook
     # link: www.myawesomelink.com
