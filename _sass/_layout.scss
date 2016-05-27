@@ -78,15 +78,14 @@ div.mdl-card__supporting-text h4 {
   position: relative;
   margin: 10px;
 	width: 100%;
-  border: 3px solid $gold-color-light;
+  border: 10px solid #006014;
 
   .mdl-card__supporting-text {
-    margin: 40px;
+    margin: 20px;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    padding: 0;
     color: inherit;
     width: calc(100% - 80px);
   }
