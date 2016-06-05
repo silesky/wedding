@@ -2,7 +2,7 @@
 title: Melissa ♡ Seth
 email: seth.silesky@gmail.com
 description: 'The official wedding site for Melissa H. Dunn and Seth B. Silesky'
-baseurl: "/wedding"
+# baseurl: "/wedding"
 # url: "http://melissaandseth.com" # the base hostname & protocol for your site
 twitter_username: '@myfriendseth'
 # github_username:  jekyll
