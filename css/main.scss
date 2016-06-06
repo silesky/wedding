@@ -9,6 +9,9 @@
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
 
+h3, h4 {
+  font-family:'Homemade Apple', cursive;
+}
 .mdl-layout__header-row > a {
   color: white;
   text-decoration: none;
@@ -20,7 +23,7 @@
 
 // center all cards
 .mdl-grid {
-  align-items: center;
+  align-items: stretch;
 }
 // accomodations, itinerary, location, photos
 .mdl-card__title-text, .mdl-card__title a {
