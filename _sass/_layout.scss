@@ -12,13 +12,8 @@
 */
 
 /* align 'read more' in front page */
-.mdl-card__supporting-text {
-		min-height: 145px;
-}
 
-.mdl-card__supporting-text p {
-	margin-top: 5%;
-}
+
 .mdl-layout__header {
 
 background: rgba(0,96,20,1);
@@ -33,7 +28,6 @@ background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, r
 // READ MORE links
 .mdl-button.mdl-button--colored {
 	color: darkgrey;
-
 }
 
 // accomdations, location, photos etc
@@ -44,6 +38,8 @@ background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, r
 div.mdl-card__supporting-text h4 {
 	color: $gold-color;
 	font-weight: bold;
+	line-height: 150%;  /*  melissa and seth are going to be married...*/
+	text-align: center;
 }
 // footer
 .mdl-mega-footer {
@@ -65,9 +61,12 @@ div.mdl-card__supporting-text h4 {
     height: 176px;
     background: url('../img/welcome_card.jpg') center / cover;
   }
-
-  .mdl-card__supporting-text > span { color: #9F9F9F; }
-
+	.mdl-card__supporting-text {
+		min-height: 145px; /* read more aligns */
+		}
+		span {
+				color: #9F9F9F;
+		}
   .mdl-card__menu {
     color: #fff;
   }
@@ -88,15 +87,16 @@ div.mdl-card__supporting-text h4 {
   border: 10px solid #006014;
 
   .mdl-card__supporting-text {
-    margin: 20px;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     color: inherit;
-    width: calc(100% - 80px);
-  }
-
+    width: 90%;
+	p {
+		margin-top: 5% /* not so much space for mobile */
+	}
+}
   .mdl-card__actions {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     margin: 0;
