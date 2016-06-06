@@ -40,6 +40,8 @@ div.mdl-card__supporting-text h4 {
 	font-weight: bold;
 	line-height: 150%;  /*  melissa and seth are going to be married...*/
 	text-align: center;
+	padding: 1%;
+	margin: 1%;
 }
 // footer
 .mdl-mega-footer {
@@ -62,10 +64,16 @@ div.mdl-card__supporting-text h4 {
     background: url('../img/welcome_card.jpg') center / cover;
   }
 	.mdl-card__supporting-text {
-		min-height: 145px; /* read more aligns */
+		min-height: 125px; /* read more aligns */
+		padding: 0px;
 		}
 		span {
 				color: #9F9F9F;
+		}
+		p {
+			margin: 5%;
+			margin-bottom: 0px;
+
 		}
   .mdl-card__menu {
     color: #fff;
@@ -82,7 +90,7 @@ div.mdl-card__supporting-text h4 {
 
 .section-highlight {
   position: relative;
-  margin: 10px;
+  margin: 1em;
 	width: 100%;
   border: 10px solid #006014;
 
@@ -93,6 +101,8 @@ div.mdl-card__supporting-text h4 {
     flex-grow: 1;
     color: inherit;
     width: 90%;
+		margin: 1%;
+		padding: 1
 	p {
 		margin-top: 5% /* not so much space for mobile */
 	}
