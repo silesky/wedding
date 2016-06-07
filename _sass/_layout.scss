@@ -45,6 +45,7 @@ div.mdl-card__supporting-text h4 {
 }
 // footer
 .mdl-mega-footer {
+	height: 30vh;
   background-color: $evergreen-color;
 }
 .mdl-mega-footer--link-list {
@@ -53,7 +54,7 @@ div.mdl-card__supporting-text h4 {
 /***************************/
 .page-content{
   max-width: 1200px;
-	min-height: 100vh;
+	min-height: 70vh;
   margin: 0 auto;
 }
 
