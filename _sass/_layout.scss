@@ -108,7 +108,9 @@ div.mdl-card__supporting-text h4 {
     color: inherit;
     width: 90%;
 		margin: 1%;
-		padding: 1
+		padding: 1%;
+		display: flex;
+		align-items: center;
 	p {
 		margin-top: 5% /* not so much space for mobile */
 	}
