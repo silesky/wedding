@@ -15,6 +15,7 @@
 
 .mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
 	color: lighten($gold-color, 25%);
+	transition: 1s ease;
 
 
 }
