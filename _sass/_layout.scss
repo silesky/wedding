@@ -13,7 +13,11 @@
 
 /* align 'read more' in front page */
 
+.mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
+	color: lighten($gold-color, 25%);
 
+
+}
 .mdl-layout__header {
 
 background: rgba(0,96,20,1);
