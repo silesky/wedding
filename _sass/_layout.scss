@@ -70,16 +70,17 @@ div.mdl-card__supporting-text h4 {
     height: 176px;
     background: url('../img/welcome_card.jpg') center / cover;
   }
-	.mdl-card__supporting-text {
-		min-height: 12em; /* read more aligns */
-		padding: 0px;
-		}
+	.mdl-card__supporting-text {  
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
 		span {
 				color: #9F9F9F;
 		}
 		p {
 			margin: 5%;
-			margin-bottom: 0px;
 
 		}
   .mdl-card__menu {
