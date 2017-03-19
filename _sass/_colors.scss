@@ -1,8 +1,9 @@
 $blue-invite: #91bfc6;
 $blue-invite-dark: darken($blue-invite, 25%);
 $green-invite: #bbd1b6;
-$grey-invite-dark: darken($grey-invite, 25%);
 $grey-invite:#cfced3;
+$grey-invite-dark: darken($grey-invite, 25%);
+
 // Pantone Metallic 8363 Gold
 $gold: #a19b4b;
 $gold-dark: darken($gold, 10%);
@@ -12,7 +13,7 @@ $sagegreen: #67823a;
 $sagegreen-dark: darken($sagegreen, 25%);
 $sagegreen-light:  lighten($sagegreen, 25%);
 
-$green: #bbd1b6; // footer
+$green: $green-invite; // footer
 $green-dark: darken($green, 10%);
 $green-light: lighten($green, 10%);
 //
