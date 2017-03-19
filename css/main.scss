@@ -8,23 +8,53 @@
 
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
+@import "colors";
+%font-sans-serif {
+  font-family: Geneva, Verdana, sans-serif;
+}
+%font-custom-sans-serif {
+ font-family: 'Open Sans Condensed', sans-serif;
+}
 a {
   color: unset;
   font-weight: unset;
 }
 h2, h3, h4, h5 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  @extend %font-custom-sans-serif;
 }
-.sans-serif {
-  font-family: 'Helvetica','Arial',sans-serif;
+.sans-serif, p {
+   @extend %font-sans-serif;
 }
+
 .mdl-layout__header-row > a {
-  color: white;
+  .mdl-layout-title {
+    @extend %font-sans-serif;
+    font-size: 30px;
+  }
   text-decoration: none;
+}
+.mdl-layout-title {
+  @extend %font-custom-sans-serif;
+  font-size: 31px;
+}
+.mdl-navigation__link {
+  @extend %font-sans-serif;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: $blue-invite;
+  color: $grey-invite-light;
+  transition: 0.3s ease;
+}
+.mdl-button--accent.mdl-button--accent.mdl-button--raised,
+.mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  background-color: $blue-invite-dark;
 }
 // twitter, fb, instagram
 .social-media i {
   padding-left: 10px;
+}
+.social-media > a {
+  color: $blue-invite;
 }
 
 // center all cards
@@ -44,7 +74,6 @@ h2, h3, h4, h5 {
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-"colors",
 "base",
 "layout",
 "syntax-highlighting",

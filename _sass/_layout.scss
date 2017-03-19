@@ -14,10 +14,8 @@
 /* align 'read more' in front page */
 
 .mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
-	color: lighten($grey-invite-dark, 25%);
-	transition: 1s ease;
-
-
+	color: $blue-invite-light;
+	transition: 0.3s ease;
 }
 .mdl-layout__header {
   background: -moz-linear-gradient(left, $green 0%, $green 66%, $grey-invite 100%);
