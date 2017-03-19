@@ -9,8 +9,8 @@
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
 
-h3, h4 {
-  font-family:'Homemade Apple', cursive;
+h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .sans-serif {
   font-family: 'Helvetica','Arial',sans-serif;
@@ -37,30 +37,11 @@ h3, h4 {
 .mdl-layout__container {
   position: relative;
 }
-// Pantone Metallic 8363 Gold
-$gold-color: #a19b4b;
-$gold-color-dark: darken($gold-color, 10%);
-$gold-color-light:  lighten($gold-color, 10%);
-// Pantone Coated 575 C (Green)
-$sagegreen-color: #67823a;
-$sagegreen-color-dark: darken($sagegreen-color, 25%);
-$sagegreen-color-light:  lighten($sagegreen-color, 25%);
-
-$evergreen-color: #006014;
-$evergreen-color-dark: darken($evergreen-color, 10%);
-$evergreen-color-light: lighten($evergreen-color, 10%);
-//
-//
-/******************************/
-$spacing-unit:     30px;
-$super-search:     rgba(0, 191, 255, 0.85);
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+"colors",
 "base",
 "layout",
 "syntax-highlighting",

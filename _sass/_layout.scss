@@ -14,20 +14,20 @@
 /* align 'read more' in front page */
 
 .mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
-	color: lighten($gold-color, 25%);
+	color: lighten($grey-invite, 25%);
 	transition: 1s ease;
 
 
 }
 .mdl-layout__header {
 
-background: rgba(0,96,20,1);
-background: -moz-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,96,20,1)), color-stop(66%, rgba(0,96,20,1)), color-stop(100%, rgba(161,155,75,1)));
-background: -webkit-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
-background: -o-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
-background: -ms-linear-gradient(left, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
-background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, rgba(161,155,75,1) 100%);
+background: $green;
+background: -moz-linear-gradient(left, $green 0%, $green 66%, rgba(161,155,75,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, $green), color-stop(66%, $green), color-stop(100%, rgba(161,155,75,1)));
+background: -webkit-linear-gradient(left, $green 0%, $green 66%, rgba(161,155,75,1) 100%);
+background: -o-linear-gradient(left, $green 0%, $green 66%, rgba(161,155,75,1) 100%);
+background: -ms-linear-gradient(left, $green 0%, $green 66%, rgba(161,155,75,1) 100%);
+background: linear-gradient(to right, $green 0%, $green 66%, rgba(161,155,75,1) 100%);
 }
 
 // READ MORE links
@@ -41,7 +41,7 @@ background: linear-gradient(to right, rgba(0,96,20,1) 0%, rgba(0,96,20,1) 66%, r
 }
 //Some folks are getting married!
 div.mdl-card__supporting-text h4 {
-	color: $gold-color;
+	color: $grey-invite;
 	font-weight: bold;
 	line-height: 150%;  /*  melissa and seth are going to be married...*/
 	text-align: center;
@@ -51,7 +51,7 @@ div.mdl-card__supporting-text h4 {
 // footer
 .mdl-mega-footer {
 	height: 30vh;
-  background-color: $evergreen-color;
+  background-color: $green;
 }
 .mdl-mega-footer--link-list {
 
@@ -70,7 +70,7 @@ div.mdl-card__supporting-text h4 {
     height: 176px;
     background: url('../img/welcome_card.jpg') center / cover;
   }
-	.mdl-card__supporting-text {  
+	.mdl-card__supporting-text {
     min-height: 10em;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@ div.mdl-card__supporting-text h4 {
   position: relative;
   margin: 1em;
 	width: 100%;
-  border: 10px solid #006014;
+  border: 10px solid $green;
 
   .mdl-card__supporting-text {
     -webkit-box-flex: 1;
@@ -111,7 +111,7 @@ div.mdl-card__supporting-text h4 {
     width: 90%;
 		margin: 1%;
 		padding: 1%;
-		display: flex;
+		display: block;
 		align-items: center;
 	p {
 		margin-top: 5% /* not so much space for mobile */
