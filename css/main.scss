@@ -8,31 +8,50 @@
 
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
-@import "colors";
+@import
+'colors', // mine
+'breakpoints', // mine
+'base',
+'layout',
+'syntax-highlighting',
+'post',
+'search',
+'location',
+'accomodations',
+'itinerary',
+'registry',
+'about'
+;
+
 %font-sans-serif {
   font-family: Geneva, Verdana, sans-serif;
 }
 %font-custom-sans-serif {
  font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
+
+
 a {
   color: unset;
   font-weight: unset;
+  text-decoration: none;
 }
 h2, h3, h4, h5 {
   @extend %font-custom-sans-serif;
 }
 .sans-serif, p {
-   @extend %font-sans-serif;
+  @extend %font-sans-serif;
 }
 
-.mdl-layout__header-row > a {
-  .mdl-layout-title {
-    @extend %font-sans-serif;
-    font-size: 30px;
+.mdl-layout__header-row {
+  .mdl-layout-title { // Melissa <3 Seth
+      @extend %font-sans-serif;
+      font-size: 30px;
+      @media(max-width: $small) { font-size: unset; }
+    }
   }
-  text-decoration: none;
-}
 .mdl-layout-title {
   @extend %font-custom-sans-serif;
   font-size: 31px;
@@ -62,10 +81,7 @@ h2, h3, h4, h5 {
   align-items: stretch;
 }
 // accomodations, itinerary, location, photos
-.mdl-card__title-text, .mdl-card__title a {
-  text-decoration: none;
-  color: white;
-}
+
 
 .mdl-layout__container {
   position: relative;
@@ -73,15 +89,4 @@ h2, h3, h4, h5 {
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-"base",
-"layout",
-"syntax-highlighting",
-"post",
-"search",
-"location",
-"accomodations",
-"itinerary",
-"registry",
-"about"
-;
+

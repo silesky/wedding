@@ -35,7 +35,11 @@
 // accomdations, location, photos etc
 .mdl-card__title-text, .mdl-card__title a {
 	color: $grey-invite-dark;
-  font-size: 150%;
+  font-size: 36px;
+  @media (max-width: $med) and (min-width: $small) {
+    font-size: 29px; // fix accomodations title overlap
+  }
+
 }
 //Some folks are getting married!
 div.mdl-card__supporting-text h4 {
