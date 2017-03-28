@@ -9,6 +9,7 @@
 /*********** overrides ***********/
 // Melissa <3 Seth (title)
 @import
+'fonts', // mine
 'colors', // mine
 'breakpoints', // mine
 'base',
@@ -23,24 +24,16 @@
 'about'
 ;
 
-%font-sans-serif {
-  font-family: Geneva, Verdana, sans-serif;
-}
-%font-custom-sans-serif {
- font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
-
-
 a {
   color: unset;
   font-weight: unset;
   text-decoration: none;
 }
+
 h2, h3, h4, h5 {
   @extend %font-custom-sans-serif;
 }
+
 .sans-serif, p {
   @extend %font-sans-serif;
 }
@@ -50,15 +43,17 @@ h2, h3, h4, h5 {
       @extend %font-sans-serif;
       font-size: 30px;
       @media(max-width: $small) {
-        font-size: 28px;
+        font-size: 25px;
 
         }
     }
  }
+
 .mdl-layout-title {
   @extend %font-custom-sans-serif;
   font-size: 31px;
 }
+
 .mdl-navigation__link {
   @extend %font-sans-serif;
 }

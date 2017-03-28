@@ -1,18 +1,6 @@
 // Generals styles for material design light elements
 
-/********* overrides *********/
-/*
-        Dark Sage green: #69793e
-          http://rgb.to/color/6881/dark-sage-green
-        Light Sage green: #a4be4d
-          http://rgb.to/keyword/10507/1/light-sage-green
-        Pantone Metallic 8363 Gold: #a19b4b
-          http://rgb.to/pantone/metallic/8363-c
-        Ivory: #FFFFF0
-*/
-
-/* align 'read more' in front page */
-
+// align 'read more' in front page
 .mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
 	color: $blue-invite-light;
 	transition: 0.3s ease;
@@ -43,7 +31,8 @@
 }
 //Some folks are getting married!
 div.mdl-card__supporting-text h4 {
-	color: $grey-invite-dark;
+  @extend %font-custom-cursive;
+	color: $grey-invite;
 	font-weight: bold;
 	line-height: 150%;  /*  melissa and seth are going to be married...*/
 	text-align: center;
