@@ -11,6 +11,7 @@
 @import
 'fonts', // mine
 'colors', // mine
+'effects', // mine
 'breakpoints', // mine
 'base',
 'layout',
@@ -25,9 +26,12 @@
 ;
 
 a {
-  color: unset;
-  font-weight: unset;
   text-decoration: none;
+  font-weight: unset;
+  color: $blue-invite-dark;
+}
+p a {
+  text-decoration: underline; // underline links in subpages
 }
 
 h2, h3, h4, h5 {
@@ -38,8 +42,14 @@ h2, h3, h4, h5 {
   @extend %font-sans-serif;
 }
 
-.mdl-layout__header-row {
-  .mdl-layout-title { // Melissa <3 Seth
+.mdl-layout__header-row { // Melissa <3 Seth
+  a { text-decoration: none; }
+  .mdl-layout-title {
+    color: #fff;
+    &:hover {
+      @extend %hover-blue;
+    }
+
       @extend %font-sans-serif;
       font-size: 30px;
       @media(max-width: $small) {
@@ -56,11 +66,11 @@ h2, h3, h4, h5 {
 
 .mdl-navigation__link {
   @extend %font-sans-serif;
-}
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: $blue-invite;
-  color: $grey-invite-light;
-  transition: 0.3s ease;
+  &:hover {
+    background-color: $blue-invite;
+    color: $grey-invite-light;
+    transition: 0.3s ease;
+  }
 }
 .mdl-button--accent.mdl-button--accent.mdl-button--raised,
 .mdl-button--accent.mdl-button--accent.mdl-button--fab {

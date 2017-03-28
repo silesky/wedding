@@ -51,6 +51,9 @@ div.mdl-card__supporting-text h4 {
 }
 .mdl-mega-footer--link-list a {
   color: $blue-invite-dark;
+  &:hover {
+    @extend %hover-blue;
+  }
 }
 /***************************/
 .page-content{
