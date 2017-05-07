@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: registry
 title: Registry
 permalink: /registry/
 order: 4
