@@ -1,5 +1,7 @@
 // Generals styles for material design light elements
-
+.mdl-card__supporting--highlight {
+  color: $grey-invite-dark;
+}
 // align 'read more' in front page
 .mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
 	color: $blue-invite-light;
@@ -75,9 +77,6 @@ div.mdl-card__supporting-text h4 {
     align-items: center;
     margin: auto;
   }
-	span {
-		color: #9F9F9F;
-	}
 		p {
       color: $grey-invite-dark;
 			margin: 5%;
