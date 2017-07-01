@@ -2,6 +2,7 @@
 .mdl-card__supporting--highlight {
   color: $grey-invite-dark;
 }
+
 .alert {
   background: $blue-invite-dark;
   bottom: 0;
@@ -11,17 +12,24 @@
   text-align: center;
   padding: 10px;
 }
+
 .alert__text {
   color: white;
   font-weight: bold;
   font-size: 22px;
+  > a {
+    color: $green
+  }
+}
 
-}
 // align 'read more' in front page
-.mdl-layout__drawer-button:hover, .mdl-button:hover, .logo:hover {
-	color: $blue-invite-light;
-	transition: 0.3s ease;
+.mdl-layout__drawer-button:hover,
+.mdl-button:hover,
+.logo:hover {
+  color: $blue-invite-light;
+  transition: 0.3s ease;
 }
+
 .mdl-layout__header {
   background: -moz-linear-gradient(left, $green 0%, $green 66%, $grey-invite 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, $green), color-stop(66%, $green), color-stop(100%, $grey-invite));
@@ -31,51 +39,59 @@
   background: linear-gradient(to right, $green 0%, $green 66%, $grey-invite 100%);
 }
 
-
 // READ MORE links
 .mdl-button.mdl-button--colored {
-	color: $blue-invite;
+  color: $blue-invite;
 }
 
 // accomdations, location, photos etc
-.mdl-card__title-text, .mdl-card__title a {
-	color: $grey-invite-dark;
+.mdl-card__title-text,
+.mdl-card__title a {
+  color: $grey-invite-dark;
   font-size: 36px;
   @media (max-width: $med) and (min-width: $small) {
     font-size: 29px; // fix accomodations title overlap
   }
-
 }
+
 //Some folks are getting married!
 div.mdl-card__supporting-text h4 {
   @extend %font-custom-cursive;
-	color: $grey-invite;
-	font-weight: bold;
-	line-height: 150%;  /*  melissa and seth are going to be married...*/
-	text-align: center;
+  color: $grey-invite;
+  font-weight: bold;
+  line-height: 150%;
+  /*  melissa and seth are going to be married...*/
+  text-align: center;
 }
+
 // footer
 .mdl-mega-footer {
-	height: 30vh;
+  height: 30vh;
   background-color: $green;
   color: #fff;
 }
+
 .mdl-mega-footer--heading {
   color: #fff;
 }
-.mdl-mega-footer .icon > svg path {
+
+.mdl-mega-footer .icon>svg path {
   fill: #fff;
 }
+
 .mdl-mega-footer--link-list a {
   color: $blue-invite-dark;
   &:hover {
     @extend %hover-blue;
   }
 }
+
+
 /***************************/
-.page-content{
+
+.page-content {
   max-width: 1200px;
-	min-height: 70vh;
+  min-height: 70vh;
   margin: 0 auto;
 }
 
@@ -86,23 +102,22 @@ div.mdl-card__supporting-text h4 {
     height: 176px;
     background: url('../img/welcome_card.jpg') center / cover;
   }
-	.mdl-card__supporting-text {
+  .mdl-card__supporting-text {
     min-height: 10em;
     display: flex;
     align-items: center;
     margin: auto;
   }
-		p {
-      color: $grey-invite-dark;
-			margin: 5%;
-
-		}
+  p {
+    color: $grey-invite-dark;
+    margin: 5%;
+  }
   .mdl-card__menu {
     color: #fff;
   }
 }
 
-.post-button{
+.post-button {
   position: absolute;
   right: 15px;
   bottom: 25px;
@@ -112,13 +127,13 @@ div.mdl-card__supporting-text h4 {
 .full-width {
   width: 100%;
 }
+
 .section-highlight {
   position: relative;
   margin: 1em;
-	width: 100%;
+  width: 100%;
   border: 10px solid $green;
   h4 {
-
     font-size: 31px;
   }
   .mdl-card__supporting-text {
@@ -126,21 +141,20 @@ div.mdl-card__supporting-text h4 {
     -ms-flex-positive: 1;
     color: inherit;
     width: 90%;
-		display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-		align-items: center;
-	p {
-		margin-top: 5% /* not so much space for mobile */
-	}
-}
+    align-items: center;
+    p {
+      margin-top: 5%/* not so much space for mobile */
+    }
+  }
   .mdl-card__actions {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     margin: 0;
     padding: 4px 40px;
     color: inherit;
   }
-
   header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -157,12 +171,14 @@ div.mdl-card__supporting-text h4 {
     min-height: 200px;
     background: url('../img/welcome_card.jpg') center / cover;
   }
-
   button {
     position: absolute;
     z-index: 99;
     top: 8px;
     right: 8px;
   }
+}
 
+.bold {
+  font-weight: bold;
 }
